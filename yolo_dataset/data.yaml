@@ -1,0 +1,8 @@
+names:
+- TYPE_VEHICLE
+- TYPE_PEDESTRIAN
+- TYPE_CYCLIST
+nc: 3
+test: ''
+train: training/images
+val: validation/images
