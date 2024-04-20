@@ -76,8 +76,8 @@ def create_yaml(input_json_path, output_yaml_path, train_path, val_path, test_pa
 
 
 if __name__ == "__main__":
-    base_input_path = "data/"
-    base_output_path = "yolo_dataset/"
+    base_input_path = "datasets/data/"
+    base_output_path = "datasets/yolo_dataset/"
 
     # Processing validation dataset (if needed)
     convert_to_yolo(
