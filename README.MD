@@ -27,3 +27,4 @@ And tuned parameter to get the best result. But since the limited time, I only s
 and the min hits to 0 to optimize the tracking result, but there still have some problems like the object is not detected in some frames, ghosting, etc.
 Here is the output of the first image in the dataset. I only generated the output for the front camera in the test dataset. The different colors represent different objects.
 ![output](generated_imgs/sort_output_images/val_00000_00000_camera1.jpg)
+![output]((https://github.com/NATHANCHU-a11y/Waymo_Obj_Tracking/blob/master/videos/sort_output.gif)
