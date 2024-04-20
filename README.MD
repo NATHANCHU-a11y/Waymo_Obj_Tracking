@@ -22,6 +22,14 @@ Here is the output of the first image in the dataset. I only generated the outpu
 
 ### Object Tracking with SORT
 After detecting the objects, we can use SORT to track the objects.
+
+```angular2html
+git clone https://github.com/abewley/sort.git
+cd sort
+```
+```angular2html
+pip install -r requirements.txt
+```
 I used Yolov8's output to track the objects, which includes the bounding box and the class of the object.
 And tuned parameter to get the best result. But since the limited time, I only set the max age to 1, IOU threshold to 0.01, 
 and the min hits to 0 to optimize the tracking result, but there still have some problems like the object is not detected in some frames, ghosting, etc.
