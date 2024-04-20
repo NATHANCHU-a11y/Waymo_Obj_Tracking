@@ -33,7 +33,7 @@ python3 convert_coco_to_yolo.py
 ## Object Detection with YOLOv8
 In order to use SORT to track the objects, we need to detect the objects first. 
 In this step, we will train YOLOv8 on the dataset. Used pre-trained weights from YOLOv8. Then, I trained the model on the Waymo Open Dataset.
-Both code are write in Jupyter Notebook.
+Both code are write in Jupyter Notebook. The result is shown in folder `runs/detect/`.
 The example of output is shown below.
 
 ## Object Tracking with SORT
