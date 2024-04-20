@@ -9,7 +9,7 @@ In order to train YOLOv8 on the dataset, we need to convert the COCO format to Y
 python3 convert_coco_to_yolo.py
 ```
 ## Detection and Tracking
-All outputs are stored in `videos` folder.
+All outputs are stored in `videos`.
 ### Object Detection with YOLOv8
 In order to use SORT to track the objects, we need to detect the objects first. 
 In this step, we will train YOLOv8 on the dataset. 
